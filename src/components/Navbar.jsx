@@ -69,7 +69,7 @@ const Navbar = () => {
           <div className="flex flex-col items-start gap-2 sm:hidden md:flex md:flex-row md:items-center">
             <OutlineButton
               title="Login"
-              style={"bg-secondary-light text-primary-color"}
+              style={"bg-secondary-light text-black"}
             />
             <IconButton title="Try Whitepace free" />
           </div>
