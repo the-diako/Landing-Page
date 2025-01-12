@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(true);
   return (
     <section className="w-full fixed bg-primary-color py-4">
-      <div className="w-full flex items-center justify-between relative px-2 xl:px-20 ">
+      <div className="w-full flex items-center justify-between relative px-2 xl:px-20 shadow-2xl">
         <img
           src={WhiteLogo}
           alt="Logo"
