@@ -12,7 +12,7 @@ import Sponsors from "./Sponsors.jsx";
 import Testimonials from "./Testimonials.jsx";
 import Work from "./Work.jsx";
 import WorkManagement from "./WorkManagement.jsx";
-
+import Extension from "./Extension.jsx";
 export {
   Hero,
   Navbar,
@@ -28,4 +28,5 @@ export {
   Testimonials,
   Work,
   WorkManagement,
+  Extension,
 };
