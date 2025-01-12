@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="w-full py-2">
+    <div className="w-full">
       <Navbar />
 
       <Hero />
