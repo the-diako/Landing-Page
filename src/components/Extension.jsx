@@ -30,7 +30,7 @@ const Extension = () => {
         <div className="w-full mx-auto flex items-center justify-center mb-10 md:w-1/2  ">
           <img
             src={customize02}
-            alt="workManagemnent"
+            alt="customize"
             className="w-[520px] object-cover md:w-full"
           />
         </div>
