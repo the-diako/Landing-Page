@@ -58,7 +58,7 @@ const Navbar = () => {
             return (
               <li
                 key={links.id}
-                className="flex items-center gap-1 cursor-pointer hover:text-secondary-light"
+                className="flex items-center gap-1 cursor-pointer hover:text-secondary-light font-Inter"
               >
                 <p>{links.link}</p>
                 <img src={whiteDownArrow} alt="Down Arrow" />
