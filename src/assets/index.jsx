@@ -10,7 +10,6 @@ import clients03 from "./clients03.png";
 import clients04 from "./clients04.png";
 import customize01 from "./customize01.png";
 import customize02 from "./customize02.png";
-import data from "./data-image.png";
 import facebook from "./facebook.png";
 import twitter from "./twitter.png";
 import linkedin from "./Linkedin.png";
@@ -37,6 +36,7 @@ import close from "./close.svg";
 import menu from "./menu.svg";
 import whiteDownArrow from "./whiteDownArrow.png";
 import dataImage from "./dataImage.png";
+
 export {
   apps,
   bg,
@@ -50,7 +50,6 @@ export {
   clients04,
   customize01,
   customize02,
-  data,
   facebook,
   twitter,
   linkedin,
