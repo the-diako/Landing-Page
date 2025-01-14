@@ -36,7 +36,7 @@ import web from "./web.png";
 import close from "./close.svg";
 import menu from "./menu.svg";
 import whiteDownArrow from "./whiteDownArrow.png";
-
+import dataImage from "./dataImage.png";
 export {
   apps,
   bg,
@@ -76,4 +76,5 @@ export {
   close,
   menu,
   whiteDownArrow,
+  dataImage,
 };
