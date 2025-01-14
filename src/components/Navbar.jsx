@@ -38,6 +38,7 @@ const Navbar = () => {
             transition-all
             duration-300
             py-10 
+            shadow-2xl
             md:w-auto
             md:static
             md:flex-row
@@ -48,6 +49,7 @@ const Navbar = () => {
             md:space-x-10
             md:pl-0
             md:py-0
+            
             
 
             
