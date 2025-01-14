@@ -4,7 +4,7 @@ import { testimonials } from "../constants";
 
 const Testimonials = () => {
   return (
-    <section className="w-full py-10 pt-24 px-5 xl:px-20 relative">
+    <section className="w-full py-10 pt-24 px-5 xl:px-20 relative overflow-hidden">
       <div className="w-full flex flex-col items-center justify-center text-center mb-20">
         <div className="w-full flex flex-col items-center justify-center text-center gap-5 mb-16 md:w-1/2">
           <div className="relative">
@@ -20,13 +20,13 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center justify-center gap-8 ">
+        <div className="flex flex-wrap items-center justify-center gap-8">
           {testimonials.map((cards, index) => {
             const isCardFirstOrLast = index === 0;
             return (
               <div
                 key={cards.id}
-                className={`rounded-lg py-10 px-10 w-[450px] shadow-xl flex items-center flex-col ${
+                className={`rounded-lg py-10 px-10 sm:w-[450px] shadow-xl flex items-center flex-col ${
                   isCardFirstOrLast
                     ? "bg-white text-secondary-dark "
                     : "bg-primary-light text-white"
