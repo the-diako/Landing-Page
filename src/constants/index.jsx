@@ -19,6 +19,8 @@ import {
   linkedin,
   web,
 } from "../assets";
+import IconButton from "../components/IconButton";
+import OutlineButton from "../components/OutlineButton";
 
 export const navLinks = [
   {
@@ -78,6 +80,12 @@ export const planCards = [
         id: 6,
         icon: planBlackIcon,
         text: "Add due dates, reminders, and notifications to your tasks",
+        Btn: (
+          <OutlineButton
+            title="Get Started"
+            style={"text-[#000] border-2 border-secondary-light bg-white"}
+          />
+        ),
       },
     ],
   },
@@ -115,6 +123,12 @@ export const planCards = [
         id: 6,
         icon: planYellowIcon,
         text: "Add due dates, reminders, and notifications to your tasks",
+        Btn: (
+          <OutlineButton
+            title="Get Started"
+            style={"bg-primary-light text-white"}
+          />
+        ),
       },
     ],
   },
@@ -151,6 +165,12 @@ export const planCards = [
         id: 6,
         icon: planBlackIcon,
         text: "Add due dates, reminders, and notifications to your tasks",
+        Btn: (
+          <OutlineButton
+            title="Get Started"
+            style={"text-[#000] border-2 border-secondary-light bg-white"}
+          />
+        ),
       },
     ],
   },
