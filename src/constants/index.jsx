@@ -19,7 +19,6 @@ import {
   linkedin,
   web,
 } from "../assets";
-import IconButton from "../components/IconButton";
 import OutlineButton from "../components/OutlineButton";
 
 export const navLinks = [
@@ -83,7 +82,7 @@ export const planCards = [
         Btn: (
           <OutlineButton
             title="Get Started"
-            style={"text-[#000] border-2 border-secondary-light bg-white"}
+            style={"text-gray-900 border-2 border-secondary-light bg-white"}
           />
         ),
       },
@@ -168,7 +167,7 @@ export const planCards = [
         Btn: (
           <OutlineButton
             title="Get Started"
-            style={"text-[#000] border-2 border-secondary-light bg-white"}
+            style={"text-gray-900 border-2 border-secondary-light bg-white"}
           />
         ),
       },
