@@ -10,7 +10,7 @@ import IconButton from "./IconButton";
 const Footer = () => {
   return (
     <section className="w-full bg-primary-color text-white py-10 pt-24 px-5 xl:px-20 relative">
-      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 sm:gap-8 border-b-2 border-slate-500">
+      <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 sm:gap-8 border-b-2 border-slate-500 pb-10">
         <div className="flex flex-col items-center justify-center md:items-start md:justify-start mb-14">
           <img src={WhiteLogo} alt="Logo" className="w-[250px] mb-5" />
           <p className="font-Inter max-w-[380px] text-center mb-10 md:text-start">
@@ -55,8 +55,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-row items-center justify-between mt-5 px-5">
-        <ul className="flex items-start justify-start gap-10">
+      <div className="w-full flex flex-col gap-10 items-start justify-between mt-5 px-5 sm:flex-row sm:items-center">
+        <ul className="flex flex-col items-start justify-start gap-10 sm:flex-row sm:items-center sm:justify-center">
           {footerCopyRightLinks.map((links) => {
             return (
               <li className="cursor-pointer" key={links.id}>
@@ -66,7 +66,7 @@ const Footer = () => {
           })}
         </ul>
 
-        <ul className="flex items-center  justify-center gap-5">
+        <ul className="flex items-center justify-center gap-5">
           {footerSocialLinks.map((links) => {
             return (
               <li className="cursor-pointer" key={links.id}>
